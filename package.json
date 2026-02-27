@@ -1,26 +1,17 @@
 {
   "name": "chat-app-backend",
   "version": "1.0.0",
-  "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "tsc -b && node ./dist/index.js"
+    "dev": "tsc -b && node ./dist/index.js",
+
+    "build": "tsc",
+
+    "start": "node dist/index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/rahim709/chat-app-backend.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/rahim709/chat-app-backend/issues"
-  },
-  "homepage": "https://github.com/rahim709/chat-app-backend#readme",
   "dependencies": {
     "@types/ws": "^8.18.1",
     "typescript": "^5.9.3",
     "ws": "^8.19.0"
-  },
-  "description": ""
+  }
 }
