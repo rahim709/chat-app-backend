@@ -10,8 +10,11 @@
     "start": "node dist/index.js"
   },
   "dependencies": {
-    "@types/ws": "^8.18.1",
-    "typescript": "^5.9.3",
     "ws": "^8.19.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.17",
+    "@types/ws": "^8.18.1",
+    "typescript": "^5.9.3"
   }
 }
